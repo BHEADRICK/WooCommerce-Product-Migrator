@@ -2,8 +2,9 @@
     "name": "catmanstudios/woocommerce-product-migrator",
     "description": "Uses WooCommerce API to migrate products between sites.",
     "require": {
-        "woothemes/woocommerce-api": "^2.0",
-        "boots/admin": "^1.0"
+
+        "woothemes/woocommerce-api": "^2.0"
+
     },
     "license": "GPLv3",
     "authors": [
