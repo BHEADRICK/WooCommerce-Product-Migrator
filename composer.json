@@ -1,0 +1,15 @@
+{
+    "name": "catmanstudios/woocommerce-product-migrator",
+    "description": "Uses WooCommerce API to migrate products between sites.",
+    "require": {
+        "woothemes/woocommerce-api": "^2.0",
+        "boots/admin": "^1.0"
+    },
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Bryan Headrick",
+            "email": "bryan.d.headrick@gmail.com"
+        }
+    ]
+}
