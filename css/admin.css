@@ -1,0 +1,11 @@
+#productsResults .status, #productsResults .pageof{
+    text-align: center;
+    font-weight:bold;
+    display: block;
+    margin:10px;
+}
+#productsResults ul{max-height:300px; overflow:auto}
+#productsResults ul .found{
+    font-weight:bold;margin:0 20px}
+
+#productsResults .status.error{color:#ff0000; }

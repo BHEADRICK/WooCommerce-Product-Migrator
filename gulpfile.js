@@ -9,7 +9,7 @@ gulp.task('deploy', function () {
       accessKeyId: "ACCESSKEY",
       secretAccessKey: "secretAccessKey"
   }
-   var s3 = require('gulp-s3-upload')(config);
+//   var s3 = require('gulp-s3-upload')(config);
   var dir;
   try {
 
@@ -22,12 +22,12 @@ gulp.task('deploy', function () {
   }
   return gulp.src([ '**' ,'!.*', '!composer.json', '!package.json', '!gulpfile.js', '!node_modules/**' ])
     .pipe(zip(dir+'.zip'))
-    .pipe(gulp.dest('../')).pipe(s3({
-            Bucket: 'bucket-name', //  Required
-        }, {
+   // .pipe(gulp.dest('../')).pipe(s3({
+     //       Bucket: 'bucket-name', //  Required
+       // }, {
             // S3 Construcor Options, ie:
-            maxRetries: 5
-        }));
+         //   maxRetries: 5
+       // }));
 });
 
 gulp.task('rename', function(){

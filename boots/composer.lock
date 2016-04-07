@@ -1,0 +1,257 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "96bc653774cfcb351361fe767703e5c0",
+    "content-hash": "b1a02aa0ab020b53748a9f7eeb2e8ef0",
+    "packages": [
+        {
+            "name": "boots/admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpboots/admin.git",
+                "reference": "56840c0a383046a4c879f53d0b77211d74e2bd9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpboots/admin/zipball/56840c0a383046a4c879f53d0b77211d74e2bd9b",
+                "reference": "56840c0a383046a4c879f53d0b77211d74e2bd9b",
+                "shasum": ""
+            },
+            "require": {
+                "boots/form": "^1.0.3"
+            },
+            "type": "boots-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "M. Kamal Khan",
+                    "email": "shout@bhittani.com",
+                    "homepage": "http://bhittani.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create elegant wordpress admin pages in seconds.",
+            "homepage": "http://wpboots.com/extensions/admin",
+            "keywords": [
+                "admin",
+                "boots",
+                "utility",
+                "wordpress"
+            ],
+            "time": "2015-07-03 22:51:05"
+        },
+        {
+            "name": "boots/ajax",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpboots/ajax.git",
+                "reference": "fbfcd5f6fff89b1cac678c9ab3d88b6f18ae7309"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpboots/ajax/zipball/fbfcd5f6fff89b1cac678c9ab3d88b6f18ae7309",
+                "reference": "fbfcd5f6fff89b1cac678c9ab3d88b6f18ae7309",
+                "shasum": ""
+            },
+            "require": {
+                "boots/enqueue": "~1.0.0"
+            },
+            "type": "boots-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "M. Kamal Khan",
+                    "email": "shout@bhittani.com",
+                    "homepage": "http://bhittani.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An efficient and more reliable ajax approach.",
+            "homepage": "http://wpboots.com/extensions/ajax",
+            "keywords": [
+                "ajax",
+                "boots",
+                "utility",
+                "wordpress"
+            ],
+            "time": "2014-12-26 19:33:57"
+        },
+        {
+            "name": "boots/database",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpboots/database.git",
+                "reference": "9e6f220dc026a7dac607794953dd58558d742ddc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpboots/database/zipball/9e6f220dc026a7dac607794953dd58558d742ddc",
+                "reference": "9e6f220dc026a7dac607794953dd58558d742ddc",
+                "shasum": ""
+            },
+            "type": "boots-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "M. Kamal Khan",
+                    "email": "shout@bhittani.com",
+                    "homepage": "http://bhittani.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Basic options and post meta get and update utilities",
+            "homepage": "http://wpboots.com/extensions/database",
+            "keywords": [
+                "boots",
+                "database",
+                "utility",
+                "wordpress"
+            ],
+            "time": "2014-12-26 19:35:41"
+        },
+        {
+            "name": "boots/enqueue",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpboots/enqueue.git",
+                "reference": "89d95eee6bc7e762be5e494523ad16a8d5a8d792"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpboots/enqueue/zipball/89d95eee6bc7e762be5e494523ad16a8d5a8d792",
+                "reference": "89d95eee6bc7e762be5e494523ad16a8d5a8d792",
+                "shasum": ""
+            },
+            "type": "boots-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "M. Kamal Khan",
+                    "email": "shout@bhittani.com",
+                    "homepage": "http://bhittani.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Enqueue javascript and css stylesheets",
+            "homepage": "http://wpboots.com/extensions/enqueue",
+            "keywords": [
+                "boots",
+                "enqueue",
+                "wordpress"
+            ],
+            "time": "2014-09-13 16:41:47"
+        },
+        {
+            "name": "boots/form",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpboots/form.git",
+                "reference": "40185509f82bb285c0950e25111363b51caaf18d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpboots/form/zipball/40185509f82bb285c0950e25111363b51caaf18d",
+                "reference": "40185509f82bb285c0950e25111363b51caaf18d",
+                "shasum": ""
+            },
+            "require": {
+                "boots/ajax": "~1.0.0",
+                "boots/database": "~1.0.0",
+                "boots/media": "~1.0.0"
+            },
+            "type": "boots-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "M. Kamal Khan",
+                    "email": "shout@bhittani.com",
+                    "homepage": "http://bhittani.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Use form elements with ease. Includes powerful utilities. Endless possibilities with built-in hooks.",
+            "homepage": "http://wpboots.com/extensions/form",
+            "keywords": [
+                "boots",
+                "form",
+                "utility",
+                "wordpress"
+            ],
+            "time": "2015-07-03 22:35:54"
+        },
+        {
+            "name": "boots/media",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpboots/media.git",
+                "reference": "d9afe08f1e50a16e4a2cc6b4091ee13973e05582"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpboots/media/zipball/d9afe08f1e50a16e4a2cc6b4091ee13973e05582",
+                "reference": "d9afe08f1e50a16e4a2cc6b4091ee13973e05582",
+                "shasum": ""
+            },
+            "require": {
+                "boots/enqueue": "~1.0.0"
+            },
+            "type": "boots-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "M. Kamal Khan",
+                    "email": "shout@bhittani.com",
+                    "homepage": "http://bhittani.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily empower your pages with the wp media uploader and utility for image resizing on the fly.",
+            "homepage": "http://wpboots.com/extensions/media",
+            "keywords": [
+                "boots",
+                "image resize",
+                "media",
+                "utility",
+                "wordpress"
+            ],
+            "time": "2014-12-26 19:42:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "boots/admin": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

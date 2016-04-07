@@ -1,0 +1,32 @@
+{
+    "name": "boots/boots",
+    "type": "library",
+    "description": "The missing framework for developing WordPress plugins and themes",
+    "keywords": ["wordpress","framework","boots"],
+    "homepage": "http://wpboots.com",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "M. Kamal Khan",
+            "email": "shout@bhittani.com",
+            "homepage": "http://bhittani.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "installer\\boots" : ""
+        }
+    },
+    "scripts": {
+        "pre-install-cmd": "installer\\boots::preCmdInstallUpdate",
+        "pre-update-cmd": "installer\\boots::preCmdInstallUpdate",
+        "post-package-install": "installer\\boots::postPackageInstallUpdate",
+        "post_package_update": "installer\\boots::postPackageInstallUpdate",
+        "post-install-cmd": "installer\\boots::postCmdInstallUpdate",
+        "post-update-cmd": "installer\\boots::postCmdInstallUpdate"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "boots/admin": "dev-master"
+    }
+}
